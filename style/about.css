@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+/* header */
+.para{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* padding: 12px; */
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.left img{
+  width: 70px;
+}
+#icon-nav{
+  margin-top: 25px;
+  margin-right:10px ;
+}
+.link{
+    display: flex;
+    gap: 40px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.link a:hover{
+    text-decoration: underline;
+    color: rgb(59, 141, 182);
+}
+#active{
+    color: rgb(59, 141, 182);
+    text-decoration: underline;
+}
+marquee{
+    /* margin-top: 12px; */
+    background-color: rgb(175, 207, 231);
+    padding: 12px;
+}
+/* main */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  /* max-width: 1000px; */
+  /* margin: 50px auto; */
+  /* padding: 20px; */
+}
+
+.about-image img {
+  width: 450px;
+  height: auto;
+}
+
+.about-content {
+  max-width: 500px;
+}
+
+.about-content h1 {
+    padding: 12px 0px;
+    font-size: 45px;
+    color: #0d2340;
+    margin-bottom: 15px;
+    border-bottom: 3px rgb(65, 164, 216) solid;
+}
+
+.about-content p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #69bab3;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background: #0fa4d6;
+}
+.icon-self{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.icon-self img{
+  width: 54px;
+}
+.icon-self p{
+  text-align: center;
+}
+.text{
+  width: 350px;
+  box-shadow: rgba(69, 154, 203, 0.16) 0px 3px 10px, rgba(92, 150, 163, 0.23) 0px 3px 6px;
+  padding: 35px;
+  border-radius: 12px;
+
+}
+.contain{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  border-radius: 30px;
+  margin: 2px 45px;
+  border: 3px solid  #bee5f4 ;
+  margin-top: 32px;
+}
+.text-contain{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.text-contain h1{
+  font-size: 32px;
+  color: #0fa4d6;
+  border-bottom: 2px solid #0fa4d6;
+  padding: 10px;
+}
+.contain img{
+  width: 400px;
+  border-radius: 20px;
+}
+.profile{
+  width: 250px;
+  /* border: 1px black solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+#img-pro{
+  width: 90px;
+}
+
+.profile p{
+  text-align: center;
+}
+.profile img{
+  width: 100px;
+}
+.team{
+  padding: 80px;
+}
+.team h1{
+  color: #0fa4d6;
+  font-size: 40px;
+  padding: 10px;
+}
+.position{
+  color: #2280a0;
+}
+#icon-pro{
+  width: 100px;
+  /* border: 1px black solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pro{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px black solid;
+  padding: 32px;
+  /* border-bottom: 1px black solid; */
+
+}
+.pro1{
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding: 32px;
+}
+
+
+/* footer */
+#image-footer{
+    width: 32px;
+} 
+.icon-shop{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.text-footer{
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.text{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 35px;
+  border-radius: 12px;
+  background: white;
+
+}
+.text-footershop {
+  width: 100%;
+  background-color: rgb(203, 226, 243);
+  margin-top: 80px; 
+}
+.footer{
+  display: flex;
+  gap: 20px;
+  padding: 50px 50px;
+  height: 30vh;
+}
+.footer .last-left {
+    flex: 1;
+    text-align: center;
+}
+.footer .last-left p{
+  margin-top: 12px;
+}
+.footer .last-center {
+  text-align: center;
+  flex: 1;
+}
+.footer .right {
+  flex: 1;
+}
+.footer .right h3{
+  text-align: center;
+}
+.quick{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 12px;
+}
+.quick a{
+  color: black;
+}
+.info{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 140px;
+}
+.icon-foot{
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+
